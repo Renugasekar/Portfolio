@@ -92,6 +92,9 @@ class Body extends StatelessWidget {
                 fontSize: 30),),
             ),
             Expanded(
+              child:Scrollbar(
+                isAlwaysShown: true,
+                interactive: true,
               child: ListView.builder(
                 itemCount: projectsList.length,
                 itemBuilder: (context, index) {
@@ -120,7 +123,7 @@ class Body extends StatelessWidget {
                         )
                   ]),
                 );
-              },),
+              },),),
             )
           ],
         )
