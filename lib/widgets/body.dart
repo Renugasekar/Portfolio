@@ -35,7 +35,6 @@ class Body extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              //Spacer(),
               Stack(
                 alignment: Alignment.topCenter,
                 children: [
@@ -74,7 +73,6 @@ class Body extends StatelessWidget {
                 ],
                 
               ),
-             // Spacer(),
             ],
           ),
         )),

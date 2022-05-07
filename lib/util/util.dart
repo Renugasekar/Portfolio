@@ -8,8 +8,5 @@ import 'package:url_launcher/url_launcher.dart';
     subject: 'mailto example subject',
     body: 'mailto example body',
   );
-  // Convert the Mailto instance into a string.
-  // Use either Dart's string interpolation
-  // or the toString() method.
   await launch('$mailtoLink');
 }
